@@ -14,7 +14,6 @@ function bruteForceTwoSum(sum, array){
         let pair = [array[i], array[j]]
         if (sum === 6) {
           answer.push(pair)
-          console.log("answer: ", answer)
         }
       }
     }
